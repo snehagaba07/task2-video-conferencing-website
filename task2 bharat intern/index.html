@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Video Conferencing</title>
+</head>
+<body>
+    <header>
+        <h1>Video Conferencing</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Enter Your Email</h2>
+            <form>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email...">
+              <input type="submit" value="Join Conference">
+            </form>
+        <div id="local-video">
+            <h3>Your Video</h3>
+            <video id="localVideo" autoplay muted></video>
+        </div>
+        <div id="remote-videos">
+            <h3>Remote Participants</h3>
+            <!-- Remote video elements will be added here -->
+        </div>
+        <div id="chat">
+            <div id="chat-messages"></div>
+            <input type="text" id="message-input" placeholder="Type a message">
+            <button id="send-button">Send</button>
+          </div>
+          <div class="container">
+           
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
